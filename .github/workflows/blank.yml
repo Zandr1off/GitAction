@@ -16,4 +16,4 @@ jobs:
 
     steps:
 
-      - run: echo "The job was automatically triggered by a ${{MY_SECRET_NAME}} event."
+      - run: echo "The job was automatically triggered by a ${{ secrets.MY_SECRET_NAME }} event."
